@@ -14,12 +14,12 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "me.herobane.HerosAnchorOptimizerClient"
+      "me.herobane.herosanchoroptimizer.HerosAnchorOptimizerClient"
     ]
   },
   "depends": {
-    "fabricloader": ">=0.15.11",
-    "fabric": "*",
-    "minecraft": "~1.21"
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
   }
 }
